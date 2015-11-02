@@ -1,0 +1,1 @@
+Main-Class: kbn.scala.base.Main

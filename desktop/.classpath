@@ -1,0 +1,26 @@
+<classpath>
+  <classpathentry output="target/scala-2.11/classes" kind="src" path="src/main/scala"/>
+  <classpathentry output="target/scala-2.11/classes" kind="src" path="src/main/java"/>
+  <classpathentry output="target/scala-2.11/test-classes" kind="src" path="src/test/scala"/>
+  <classpathentry output="target/scala-2.11/test-classes" kind="src" path="src/test/java"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/com.badlogicgames.gdx/gdx/jars/gdx-1.6.5.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/com.badlogicgames.gdx/gdx-backend-lwjgl/jars/gdx-backend-lwjgl-1.6.5.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/org.lwjgl.lwjgl/lwjgl/jars/lwjgl-2.9.2.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/org.lwjgl.lwjgl/lwjgl-platform/jars/lwjgl-platform-2.9.2-natives-osx.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/org.lwjgl.lwjgl/lwjgl-platform/jars/lwjgl-platform-2.9.2-natives-windows.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/org.lwjgl.lwjgl/lwjgl-platform/jars/lwjgl-platform-2.9.2-natives-linux.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/net.java.jinput/jinput/jars/jinput-2.0.5.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/net.java.jutils/jutils/jars/jutils-1.0.0.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/org.lwjgl.lwjgl/lwjgl_util/jars/lwjgl_util-2.9.2.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/com.badlogicgames.jlayer/jlayer/jars/jlayer-1.0.1-gdx.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/org.jcraft/jorbis/jars/jorbis-0.0.17.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/net.java.jinput/jinput-platform/jars/jinput-platform-2.0.5-natives-linux.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/net.java.jinput/jinput-platform/jars/jinput-platform-2.0.5-natives-osx.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/net.java.jinput/jinput-platform/jars/jinput-platform-2.0.5-natives-windows.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/com.badlogicgames.gdx/gdx-platform/jars/gdx-platform-1.6.5-natives-desktop.jar"/>
+  <classpathentry kind="lib" path="/Users/swolfe/.ivy2/cache/net.sf.proguard/proguard-base/jars/proguard-base-4.11.jar"/>
+  <classpathentry kind="src" path="/core" exported="true" combineaccessrules="false"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>
