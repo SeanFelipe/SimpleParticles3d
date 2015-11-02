@@ -13,7 +13,7 @@ import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver
 
 class Libgdxbase extends ApplicationAdapter {
     
-    lazy val cam = new PerspectiveCamera()
+    lazy val cam = new PerspectiveCamera(60f, 60f, 60f)
     lazy val particleSystem = ParticleSystem.get()
     lazy val pointSpriteBatch = new PointSpriteParticleBatch()
     lazy val assets = new AssetManager()
@@ -32,7 +32,7 @@ class Libgdxbase extends ApplicationAdapter {
         assets.load("particle/point.pfx", classOf[ParticleEffect], loadParam)
         assets.finishLoading()
 
-        originalEffect = assets.get("particle/point.pfx")
+        originalEffect = assets.get("particle/point.pfx", classOf[ParticleEffect])
         effect = originalEffect.copy()
         effect.init()
         effect.start()  // optional: particle will begin playing immediately
